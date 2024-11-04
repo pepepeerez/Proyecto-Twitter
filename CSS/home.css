@@ -1,0 +1,106 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f8fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #e0245e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #c81c4b;
+}
+
+
+.username-link {
+    color: #1da1f2; 
+    text-decoration: none; 
+    font-weight: bold; 
+    cursor: pointer; 
+}
+
+
+
+.user-info {
+    color: #555;
+    font-size: 1rem;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #0d95e8;
+}
+
+.tweet {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.tweet p {
+    margin: 0;
+}
+
+.tweet small {
+    color: #555;
+    font-size: 0.85rem;
+}
+
+.filters {
+    margin-top: 20px;
+}
+
+.filters a {
+    color: #1da1f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.filters a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+

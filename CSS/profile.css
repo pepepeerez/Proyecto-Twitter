@@ -1,0 +1,157 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 15px;
+    background-color: #1da1f2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #0d8ddf;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 60px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.follow-button, .unfollow-button {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.follow-button {
+    background-color: #1da1f2;
+}
+
+.follow-button:hover {
+    background-color: #0d8ddf;
+}
+
+.unfollow-button {
+    background-color: #f54242;
+}
+
+.unfollow-button:hover {
+    background-color: #d43535;
+}
+
+.edit-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.edit-description textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.edit-description button {
+    padding: 8px 15px;
+    background-color: #1da1f2;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-description button:hover {
+    background-color: #0d8ddf;
+}
+.connections-links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.connections-links a {
+    color: #1da1f2;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.connections-links a:hover {
+    color: #0d8ddf;
+}
+
+
+.tweet {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tweet p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.tweet small {
+    font-size: 12px;
+    color: #666;
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+}
+
+

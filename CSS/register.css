@@ -1,0 +1,72 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/fake.jpg");
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form::before {
+    content: "¿Aún no tienes una cuenta?";
+    font-size: 1.5rem;
+    color: #0077c8;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background: #f0f0f0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0077c8;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+
+form button[type="submit"]:hover {
+    background-color: #005b99;
+}
+
+form a {
+    display: block;
+    margin-top: 15px;
+    color: #0077c8;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
